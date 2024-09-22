@@ -1,12 +1,16 @@
-# email-bot
+# whatsapp gmail reader
 
-Simple AI email bot with OpenAI and Simplegmail
+Whatsapp ChatBot intended to read emails from a Gmail account
 
-0. git clone
-1. setup gmail API 
-2. create desktop OAuth2 credentials
-3. download JSON, move it into directory
-4. rename JSON to client_secrets.json
-5. pip install -r requirements.txt
-6. export OPENAI_API_KEY="your-api-key"
-7. python email_bot.py
+Instructions to run the app locally:
+
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python run.py
+
+http ngrok 5000
+
+Copy ngrok url to Twilio SandBox Settings
+
+Whatsapp API provider: Twilio

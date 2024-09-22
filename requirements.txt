@@ -1,3 +1,4 @@
-openai
-os
 simplegmail
+Flask
+twilio
+python-dotenv
